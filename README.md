@@ -28,6 +28,13 @@ It is recommended to install Motrix using the installation package (Motrix-Setup
 
 If you use package management tools to manage applications on Windows, such as [Chocolatey](https://chocolatey.org), [scoop](https://github.com/lukesampson/scoop). You can use them to install Motrix.
 
+#### WinGet
+
+You can use WinGet to install Motrix by running the following command from the `command line` or from `PowerShell`:
+```bash
+winget install -e --id agalwood.Motrix
+````
+
 #### Chocolatey
 Thanks to [@Yato](https://github.com/iYato) for continuing to maintain the [Motrix Chocolatey](https://community.chocolatey.org/packages/motrix) package. To install motrix, run the following command from the `command line` or from `PowerShell`:
 
